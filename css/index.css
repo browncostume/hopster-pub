@@ -1,37 +1,135 @@
+/*html {*/
 
-html {
-    background-color: #303030;
-    display: flex;
+/*    background-color: #303030;*/
+
+/*    display: flex;*/
+
+/*    font-family: 'Atomic Age', cursive;*/
+
+/*    color: #ffe3ae;*/
+
+/*    font-size: 30px;*/
+
+/*    justify-content: center;*/
+
+/*}*/
+
+/*body {*/
+
+/*    max-width: 1000px;*/
+
+/*    min-width: 320px;*/
+
+/*    display: grid;*/
+
+/*}*/
+
+.container {
+    display: grid;
+    grid-columns: 100px 100px 100px 100px 100px;
+    grid-rows: 100px 100px;
+    /*justify-content: center;*/
 }
 
-body {
-    max-width: 1200px;
-    min-width: 320px;
-    display: flex;
-
-
-}
-
-mainpics {
+.item-a {
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 1/2;
     justify-content: center;
-    z-index: 0;
-    display: flex;
-    max-width: 1200px;
 }
-h2 {
-    font-family: 'Atomic Age', cursive;
-    color: #ffe3ae;
+
+.item-b {
+    display: grid;
     font-size: 70px;
     justify-content: center;
-
-    
+    grid-row: 1/2;
+    grid-column: 2/3;
 }
 
-h1 {
-    font-family: 'Atomic Age', cursive;
-    color: #ffe3ae;
-    font-size: 30px;
-    justify-content: center;
-    display: flex;
+/*.item-c {}*/
 
-}
+/*.item-d {*/
+
+/*    font-family: 'Atomic Age', cursive;*/
+
+/*    color: #ffe3ae;*/
+
+/*    font-size: 30px;*/
+
+/*    justify-content: space-around;*/
+
+/*    display: flex;*/
+
+/*}*/
+
+/*.item-e {}*/
+
+/*.item-f {}*/
+
+/*nav {*/
+
+/*    display: grid;*/
+
+/*    grid-rows: 2/3;*/
+
+/*}*/
+
+/*ul {*/
+
+/*    display: grid;*/
+
+/*}*/
+
+/*nav ul {*/
+
+/*    display: flex;*/
+
+/*    list-style: none;*/
+
+/*    margin: 0;*/
+
+/*}*/
+
+/*li {*/
+
+/*    display: list-item;*/
+
+/*    list-style-type: none;*/
+
+/*}*/
+
+/*.mainpics {*/
+
+/*    justify-content: center;*/
+
+/*    display: flex;*/
+
+/*    max-width: 1000px;*/
+
+/*}*/
+
+/*h2 {*/
+
+/*    font-family: 'Atomic Age', cursive;*/
+
+/*    color: #ffe3ae;*/
+
+/*    font-size: 70px;*/
+
+/*    justify-content: center;*/
+
+/*}*/
+
+/*h1 {*/
+
+/*    font-family: 'Atomic Age', cursive;*/
+
+/*    color: #ffe3ae;*/
+
+/*    font-size: 30px;*/
+
+/*    justify-content: center;*/
+
+/*    display: flex;*/
+
+/*}*/
