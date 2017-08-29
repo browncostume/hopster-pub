@@ -30,7 +30,7 @@ a {
 p {
    font-family: 'Atomic Age', cursive;
     color: #ffe3ae;
-    font-size: 20px;
+    font-size: 14px;
     /*text-decoration: none;*/ 
 }
 
@@ -90,6 +90,7 @@ nav ul {
 
     margin: 0 auto;
     justify-content: space-around;
+    width: auto;
 
 }
 
@@ -125,7 +126,6 @@ wraper {
 
 .wazzup {
     display: grid;
-    
     grid-row: 3/6;
     grid-column: 1/5;
 }
@@ -160,6 +160,29 @@ photopub {
 .beernewsphoto {
     
     display: flex;
+}
+.visitus {
+    display: grid;
+    grid-row: 10/12;
+    grid-column: 1/5;
+}
+.photocontact {
+    display: grid;
+    grid-row: 10/13;
+    grid-column: 6/11;
+}
+
+.pubentrence {
+    display: grid;
+    grid-row: 14/16;
+    grid-column: 1/11;
+}
+
+.footer {
+    display: grid;
+    grid-row: 18/20;
+    grid-column: 1/11;
+    justify-content: space-around;
 }
 
 counter {
