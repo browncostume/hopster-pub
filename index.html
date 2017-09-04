@@ -166,10 +166,12 @@
         </div>
 
         <div class="photocontact">
+
             <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
             <div style='overflow:hidden;height:400px;width:400px;'>
                 <div id='gmap_canvas' style='height:400px;width:400px;'></div>
-                <div><small><a href="http://embedgooglemaps.com">embedgooglemaps.com</a></small></div>
+                <div><small><a href="http://embedgooglemaps.com">Click here to generate your map!</a></small></div>
+                <div><small><a href="http://www.masoun-loubnan.org/freemasonry-in-singapore/">expedia coupon code vacation package</a></small></div>
                 <style>
                     #gmap_canvas img {
                         max-width: none!important;
@@ -178,15 +180,12 @@
                 </style>
             </div>
             <script type='text/javascript'>
-                function init_map() {
-                    var myOptions = { zoom: 17, center: new google.maps.LatLng(49.87475428774109, 23.93234658130644), mapTypeId: google.maps.MapTypeId.SATELLITE };
+                function init_map() { var myOptions = { zoom: 17, center: new google.maps.LatLng(49.874850558591476, 23.93233576502837), mapTypeId: google.maps.MapTypeId.HYBRID };
                     map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
-                    marker = new google.maps.Marker({ map: map, position: new google.maps.LatLng(49.87475428774109, 23.93234658130644) });
-                    infowindow = new google.maps.InfoWindow({ content: '<strong>HOPSTER PUB</strong><br>Львів, Величковського, 3<br>' });
+                    marker = new google.maps.Marker({ map: map, position: new google.maps.LatLng(49.874850558591476, 23.93233576502837) });
+                    infowindow = new google.maps.InfoWindow({ content: '<strong>HOPSTER PUB</strong><br>3 Velichkovskyi st.<br>' });
                     google.maps.event.addListener(marker, 'click', function() { infowindow.open(map, marker); });
-                    infowindow.open(map, marker);
-                }
-                google.maps.event.addDomListener(window, 'load', init_map);
+                    infowindow.open(map, marker); } google.maps.event.addDomListener(window, 'load', init_map);
             </script>
         </div>
     </div>
