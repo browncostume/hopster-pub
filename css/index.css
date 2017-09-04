@@ -21,17 +21,28 @@ body {
     text-align: center;
 }
 
+
+.mainpics {
+    max-width: 900px;
+}
+
+.mainpics img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 a {
     font-family: 'Atomic Age', cursive;
     color: #ffe3ae;
     font-size: 20px;
     /*text-decoration: none;*/
 }
+
 p {
-   font-family: 'Atomic Age', cursive;
+    font-family: 'Atomic Age', cursive;
     color: #ffe3ae;
     font-size: 14px;
-    /*text-decoration: none;*/ 
+    /*text-decoration: none;*/
 }
 
 .container {
@@ -82,7 +93,7 @@ p {
 }
 
 
-nav ul {
+nav ol {
 
     display: flex;
 
@@ -108,64 +119,117 @@ wraper {
     display: flex;
     justify-content: center;
 }
+
 .wrapper {
     display: grid;
     grid-template-columns: repeat(10, 10%);
     grid-template-rows: repeat(20, 5%);
     margin: auto;
 }
+
 .taps1 {
     display: grid;
     margin-top: 5px;
-    font-size: 20px;
-    justify-content: space-around;
+       font-size: 20px;
+    justify-content: center;
     grid-row: 1/3;
     grid-column: 1/11;
+
+}
+.taps1 nav {
     
+    justify-content: flex-start;
+    grid-row: 1/3;
+    grid-column: 1/11;
+
+}
+
+.taps li {
+    font-family: 'Atomic Age', cursive;
+    color: #ffc581;
+    font-size: 20px;
+     margin-left: 50px;
+    
+
 }
 
 .wazzup {
     display: grid;
     grid-row: 3/6;
     grid-column: 1/5;
-}
-.schedule {
-    display: flex;
-    /*font-size: 10px;*/
-/*    grid-row: 4/6;*/
-/*    grid-column: 1/5;*/
+    justify-content: center;
 }
 
-photopub {
-    
+.schedule {
+    display: block;
+    max-width: 300px;
+    justify-content: center;
+    grid-row: 4/6;
+    grid-column: 1/5;
+}
+
+.schedule img {
+    max-width: 100%;
+    margin: 0 auto;
+
+
+}
+
+.photopub {
+    max-width: 550px;
     display: grid;
     grid-row: 3/6;
     grid-column: 5/12;
-   
+    justify-content: flex-end;
+}
+
+.photopub img {
+    max-width: 100%;
 }
 
 
 .photonews {
-    
+    max-width: 500px;
+    max-height: 400px;
+    align-items: center;
     display: grid;
     grid-row: 7/10;
     grid-column: 1/7;
-   }
+}
+
+.photonews img {
+    max-width: 100%;
+}
+
 .beernews {
-     display: grid;
+    max-width: 500px;
+    max-height: 400px;
+    display: grid;
     grid-row: 7/10;
     grid-column: 7/11;
- }
+    justify-content: center;
+}
 
 .beernewsphoto {
-    
-    display: flex;
+    max-width: 300px;
+    /*display: block;*/
+    justify-content: center;
+
 }
+
+.beernewsphoto img {
+    max-width: 100%;
+    max-height: 100px;
+    /*display: flex;*/
+    /*justify-content: center;*/
+}
+
 .visitus {
     display: grid;
     grid-row: 10/12;
     grid-column: 1/5;
 }
+
 .photocontact {
     display: grid;
     grid-row: 10/13;
@@ -185,6 +249,16 @@ photopub {
     justify-content: space-around;
 }
 
+.footer li {
+    font-family: 'Atomic Age', cursive;
+    color: #ffc581;
+    font-size: 20px;
+    display: list-item;
+    list-style-type: none;
+    margin: 0 10px 0 10px;
+    justify-content: space-around;
+}
+
 counter {
     margin-top: 5px;
 }
@@ -194,6 +268,6 @@ h1 {
     color: #ffe3ae;
     font-size: 20px;
     justify-content: center;
-  
+
 
 }
