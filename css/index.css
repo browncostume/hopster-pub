@@ -158,6 +158,7 @@ wraper {
     grid-row: 3/6;
     grid-column: 1/5;
     justify-content: center;
+    text-align: center;
 }
 
 .schedule {
